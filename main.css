@@ -1,7 +1,29 @@
 .navbar {
-
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    border-radius: 0;
 }
 
 .jumbotron {
+    padding: 100px 25px;
+}
 
+.container-fluid {
+    padding: 600px 50px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+/*
+ *
+ *
+ */
+.bg-color-gray {
+    background: gray;
 }
