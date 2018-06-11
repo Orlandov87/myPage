@@ -14,8 +14,8 @@
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm ">
-            <a class="navbar-brand" href="#">OV</a>
+        <nav class="navbar navbar-dark bg-color-darkGray navbar-expand-sm ">
+            <a class="navbar-brand nav-link" href="#">OV</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,25 +24,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-item" href="#">Me<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Me<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        Experience
+                        <a class="nav-link" href="#">Experience</a>
                     </li>
                     <li class="nav-item">
-                        Projects
+                        <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        Skills
+                        <a class="nav-link" href="#">Skills</a>
                     </li>
                     <li class="nav-item">
-                        Education
-                    </li>
-                    <li>
-                        Contact
+                        <a class="nav-link" href="#">Education</a>
                     </li>
                     <li class="nav-item">
-                        Resume
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -54,7 +54,6 @@
                     <div class="col-sm-12">
                         <img src="" class="img-circle" alt="">
                         <h1>Orlando Vargas</h1>
-
                     </div>
                 </div>
             </div>
@@ -62,23 +61,107 @@
 
         <!-- Body of my site -->
         <div class="container">
-            <div class="row">
-                <!-- Experience Row -->
+            <!-- Experience Row -->
+            <div class="row text_align-center">
                 <div class="col-sm-12">
                     <h2>Experience</h2>
                 </div>
             </div>
-            <div class="row">
-                <!-- Projects Row -->
+            <!-- Projects Row -->
+            <div class="row text_align-center">
                 <div class="col-sm-12">
                     <h2>Projects</h2>
                 </div>
+                <div class="card col-sm-6">
+                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-sm-6">
+                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
-            <div class="row">
+            <!-- Skills Row -->
+            <div class="row text_align-center">
                 <div class="col-sm-12">
                     <h2>Skills</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Language</h4>
+                </div>
+            </div>
+            <div class="row text_align-center">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <p class="card-text">hello</p>
+                        <div class="card-footer text-muted">
+                            Java
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="card">
+                        <p>Hello</p>
+                        <div class="card-footer text-muted">
+                            HTML
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <p>Hello Again</p>
+                        <div class="card-footer text-muted">
+                            CSS
+                        </div>
+                    </div>
+                </div>
+             
+            </div>
+            <br>
+            <div class="row text_align-center">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <p>Hi</p>
+                        <div class="card-footer text-muted">
+                            JavaScript
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <p>Hello</p>
+                        <div class="card-footer text-muted">
+                            Swift
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <p>hello</p>
+                        <div class="card-footer text-muted">
+                            C
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4>Frameworks</h4>
+                </div>
+            </div>
+            <!-- Education Row -->
             <div class="row">
                 <div class="col-sm-12">
                     <h2>Education</h2>
@@ -90,7 +173,8 @@
                     <div class="form-row">
                         <div class="form-group col-sm-6">
                             <label for="inputName">Name</label>
-                            <input type"name" class="form-control" id="inputName" placeholder="Name">
+                            <input class="form-control" id="inputName" placeholder="Name">
+                            <label>  </label>
                         </div>
                     </div>
                 </div>

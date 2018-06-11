@@ -21,9 +21,17 @@
     border-radius: 0;
 }
 
+.text_align-center {
+    text-align: center;
+}
+
 /*
- *
+ * Background Color 
  */
 .bg-color-gray {
     background: gray;
+}
+
+.bg-color-darkGray {
+    background: #202020;
 }
